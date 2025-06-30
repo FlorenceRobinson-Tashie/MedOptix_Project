@@ -1,0 +1,106 @@
+# === Python Bytecode and Cache ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# === Virtual Environments ===
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+med_env/
+.venv/
+.Python
+
+# === Environment Variables and Config Files ===
+.env
+.env.*
+
+# === VS Code Settings ===
+.vscode/
+
+# === Jupyter Notebooks Checkpoints Only (keep notebooks folder itself) ===
+**/.ipynb_checkpoints/
+
+# === Logs and Temporary Files ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# === Build, Distribution and Packaging ===
+build/
+dist/
+downloads/
+*.egg-info/
+.eggs/
+wheels/
+share/python-wheels/
+*.whl
+
+# === Test, Coverage and CI artifacts ===
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.hypothesis/
+.dmypy.json
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# === Sphinx Documentation Build Directory ===
+docs/_build/
+
+# === Deployment Artifacts ===
+site/
+*.manifest
+*.spec
+
+# === OS System Files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Editor Project Files ===
+.spyderproject
+.spyproject
+.ropeproject
+
+# === Other Tools (optional placeholders if your team expands tooling) ===
+.pdm.toml
+.pdm-python
+.pytype/
+celerybeat-schedule
+celerybeat.pid
+
+# === Future Deployment / Hosting Artifacts (if needed) ===
+# e.g. Docker artifacts
+docker-compose.override.yml
+docker-compose.yml
+Dockerfile
+*.db
+*.sqlite3
+
+# === Ignore Pip Wheel Files ===
+*.whl
+
+# === Python egg metadata and distribution folders ===
+*.egg
+*.egg-info/
+.installed.cfg
+
+# === IDEs / Editors ===
+.idea/
+.abstra/
+
+# === Custom Ignore for Project-Level Temporary Directories ===
+__pypackages__/
+target/
